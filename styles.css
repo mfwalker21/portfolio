@@ -1,0 +1,45 @@
+.logo {
+    font-size: 25px;
+    font-weight: 600;
+    color:black;
+    padding: 4px;
+}
+.navbar ul {
+    display:flex;
+    justify-content: space-evenly;
+    background-color: white;
+    list-style-type: none;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.navbar a{
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 70%;
+    text-align: center;
+    font-size: 30px;
+}
+.homepage img{
+    height: 400px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.doggallery{
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    width: 100;
+    max-width: 350px;
+    height: 300px;
+}
