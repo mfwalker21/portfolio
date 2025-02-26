@@ -8,7 +8,7 @@
 .navbar ul {
     display:flex;
     justify-content: space-evenly;
-    background-color: white;
+    background-color:transparent;
     list-style-type: none;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
@@ -23,6 +23,10 @@
 .navbar a:hover {
     text-decoration: underline;
     color:rgb(178, 218, 214) ;
+}
+/* body */
+body{
+    background-color: rgba(175, 203, 208, 0.267);
 }
 /* text */
 h1{
@@ -73,7 +77,7 @@ h1, h2, h3, p, a {
     opacity: 0.7;
 }
 .footerbottom{
-    background-color: white;
+    background-color: transparent;
     padding: 20px;
     text-align: center;
 }
