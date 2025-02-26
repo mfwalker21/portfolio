@@ -145,10 +145,11 @@ section{
     color: black; 
     background-color: transparent; 
 }   
-.skills-outline { display: flex; justify-content: center;
+.skills-outline { 
+    display: flex; 
+    justify-content: center;
     gap: 15px;
     margin-top: 15px;
-    flex-wrap: wrap; 
     }    
 /* Projects */
 .doggallery{
