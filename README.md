@@ -1,5 +1,4 @@
-# Portfolio for Mya Walker during the foundations course for the TKH Fellowship (approx. 5 weeks)
-<<<<<<< HEAD
-Highlighting skills learned during the foundations course, independent research and a little about me.
+# Mya Walker-Mock client design assignment during the foundations course for the TKH Fellowship
+Highlighting skills, independent research and a little about Mya.
 
 

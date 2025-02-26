@@ -28,7 +28,25 @@
 h1{
     text-align: center;
     color: rgb(74, 106, 103); 
+    text-shadow: 0 1px 0#0d0d0d, 0 2px 0;
+       animation-name: slideinleft;
+       animation-duration: 1s;
+       animation-timing-function: ease-in;
+       animation-delay: 0s;
+       animation-iteration-count: 1;
+       animation-direction: normal;
+       animation-fill-mode: both;
+       transform: translateX(-150px); 
 }
+@keyframes slideinleft {
+    from {
+        transform: translateX(-300px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
 h1, h2, h3, p, a {
     font-family: Georgia, serif;
     text-align: center;
@@ -39,7 +57,7 @@ h1, h2, h3, p, a {
     padding: 10px;
 }
 .footernav{
-    margin: 20px;
+    margin: 10px;
 }
 .footernav ul{
     display: flex;
@@ -66,6 +84,7 @@ h1, h2, h3, p, a {
 .linkedin-icon{
     height: 40px;
     width: 40px;
+    justify-self: center;
 }
 /* Home page */
 .homepage{
@@ -82,13 +101,18 @@ h1, h2, h3, p, a {
     height: 400px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
+/* Sections on home */
+section{
+    padding: 20px;
+    background-color: gainsboro;
+}
 /* Contact Form */
 .container {
     margin: auto;
     text-align: center;
     background-color: rgb(178, 218, 214);
     border-radius: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px black;
     justify-content: center;
 }
 .container form textarea{
@@ -113,6 +137,19 @@ h1, h2, h3, p, a {
     color:black; 
     background-color: rgb(178, 218, 214); overflow: hidden;
 }
+.skills { 
+    display: inline-block; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 2px solid rgb(74, 106, 103); 
+    color: black; 
+    background-color: transparent; 
+}   
+.skills-outline { display: flex; justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap; 
+    }    
 /* Projects */
 .doggallery{
     display: flex;
